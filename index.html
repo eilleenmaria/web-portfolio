@@ -4,11 +4,500 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eilleenmaria portfolio</title>
-    <link rel="stylesheet" href="main.css">
+    <title>eilleenmaria portfolio</title>    
+    <link rel="stylesheet" href="./assets/css/main.css">    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script  type="text/javascript" src="/jquery-3.6.1.min.js"></script> 
+    <script src="https://kit.fontawesome.com/4ed2c48e83.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="app">
+    <header class="l-header">
+        <nav  class="nav bd-grid">
+            <div>        
+                <a href="#" class="nav__logo"><i class="fa-brands fa-erlang"></i>     eilleenmaria</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>                   
+                    <li class="nav__item"><a href="#training" class="nav__link">Training</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">                
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="contenido">
+        <section class="home" id="home">            
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hello,<br>I'm <span >eilleenmaria</span><br>Web Developer
+                </h1>              
+                <div class="home__title-p">
+                    <P class="">I study Tecnology software analisys and developer also, I am participating in the Oracle One project at Alura Latam. </P>                    
+                </div>
+            </div > 
+            <div class="home_contact"> <a href="#" class="button">Contact</a>  </div>       
+            <div class="home__social">               
+                <a href="" class="tooltip"><i class="fa-brands fa-square-github fa-xl"></i><span >Github</span></a>                   
+                <a href="" class="tooltip"><i class="fa-brands fa-linkedin fa-xl"></i><span>Linkedin</span></a> 
+                <a href="" class="tooltip"><i class="fa-brands fa-wpforms fa-xl"></i><span>CV</span></a>
+            </div>            
+            <div class="home__img" ></div>         
+        </section>
+        <!-- ABOUT -->
+        <section class="about  " id="about">
+            <h2 class="section-title">About me</h2>
+            
+            <div class="about__container ">
+                <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.<br>
+                    Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.<br>Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>                                          
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 1280 320"><path fill="#124E78" fill-opacity="0.6" d="M0,160L60,138.7C120,117,240,75,360,101.3C480,128,600,224,720,234.7C840,245,960,171,1080,165.3C1200,160,1320,224,1380,256L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+        </section>
+        <section class="skills" id="skills">
+           <h2 class="section-title skills__title">Skills</h2>
+           <div class="skills__container">
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="skills__cards-value">
+                        <div class="skills__cards__value-container">
+                            <div class="skills__cards__value-bar skills__cards-60"><span>60%</span></div>
+                        </div>                      
+                    </div>                    
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skills__cards-icon" >
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-50">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>JAVASCRIPT</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-50">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>REACT</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-50">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>ANGULAR</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-angular"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-50">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>JAVA</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-50">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>PYTHON</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-50">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>NODE JS</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-50">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>MONGODB</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-hotjar"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-50">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__cards">
+                    <div class="skill__cards-title">
+                        <h3>GITHUB</h3>
+                    </div>
+                    <div class="skills__cards-icon">
+                        <i class="fa-brands fa-square-github"></i>
+                    </div>
+                    <div class="skills__cards__value-container ">
+                        <div class="skills__cards__value-bar skills__cards-70">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>        
+       <section class="training" id="training">
+        <h2 class="section-title">Training</h2>
+            <div class="training__container">
+                <div class="training__cards">
+                        <div class="training__cards-img sena__img"><span>TECNOLOGIA EN ANALISIS Y DESARROLLO DE SOFTWARE</span>
+                    </div>
+                    <div class="training__cards-description">
+                       
+                        <span>15/agosto/2024</span>
+                    </div>                    
+                </div>
+                <div class="training__cards">
+                    <div class="training__cards-img senavirtual__img">
+                        <span>COMPLEMENTARIA VIRTUAL VARIABLES Y ESTRUCTURAS DE CONTROL EN LA PROGRAMACION ORIENTADA A OBJETOS: JAVA.</span>
+                    </div>
+                    <div class="training__cards-description">        <span>26/abril/2021</span>
+                    </div>                    
+                </div>
+                <div class="training__cards">
+                    <div class="training__cards-img senavirtual__img">
+                        <span>COMPLEMENTARIA VIRTUAL  DESARROLLO DE APLICACIONES CON INTERFAZ GRAFICA, MANEJO DE EVENTOS, CLASES Y OBJETOS: JAVA.</span>
+                    </div>
+                    <div class="training__cards-description">
+                        <span>01/dic/2021</span>
+                    </div>                    
+                </div>
+                <div class="training__cards">
+                    <div class="training__cards-img misiontic__img">
+                        <span>HABILIDADES EN PROGRAMACION CON ENFASIS EN DESARROLLO DE APLICACIONES WEB.</span></div>
+                    <div class="training__cards-description">    
+                        <span>31/dic/2021</span>
+                    </div>                    
+                </div>  
+                <div class="training__cards">
+                    <div class="training__cards-img techacademy__img">
+                        <span>FULLSTACK - TECH ACADEMY HOTMART</span>
+                    </div>
+                    <div class="training__cards-description">  
+                        <span>  nov/2022</span>
+                    </div>                    
+                </div>               
+                <div class="training__cards">
+                    <div class="training__cards-img oracleone__img">
+                        <span>PROGRAMACION WEB - ALURA LATAM</span>
+                    </div>
+                    <div class="training__cards-description">  
+                        <span>dic/2022</span>
+                    </div>                    
+                </div> 
+                
+            </div>
+       </section>
+       <section class="projects" id="projects">
+        <div class="cards">
 
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?wave" alt="wave" />
+              </div>
+              <div class="card-title">
+                <a class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?beach" alt="beach" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?mountain" alt="mountain" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?field" alt="field" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?water" alt="water" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?river" alt="river" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?kite" alt="kite" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?underwater" alt="underwater" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?desert" alt="desert" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2>
+                    Card title
+                    <small>Image from unsplash.com</small>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          
+       </section>     
+    </main>
+    <footer class="l-footer">
+
+    </footer>
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/4ed2c48e83.js" crossorigin="anonymous"></script>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- functionality with js -->
     <script src="functional.js"></script>
 </body>
 </html>

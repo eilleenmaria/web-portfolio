@@ -1,0 +1,79 @@
+.training{
+    height: calc(100vh - var( --header-height
+    ));
+}
+.training__container{
+    display:grid;
+    height: 80%;  
+    grid-template-columns: 21% 21% 21% 21%;
+    grid-template-rows: 45% 45%;
+    column-gap: 5%;
+    row-gap: 5%;
+    padding-top: 20px;
+}
+.training__cards{
+    display: grid;
+    border: solid 1px;
+    border-radius: 6px; 
+    grid-template-areas: 
+        "image"
+        "description";
+    grid-template-columns: 100%;
+    grid-template-rows: 85% 15%; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;      
+}
+ .training__cards-img:nth-child(1){
+    grid-area: image;  
+    position: relative; z-index: 20;
+    background-size: contain;  
+    grid-row: 1/2;
+  
+}
+.training__cards-img:nth-child(1) span{display: none;}
+
+.training__cards-img:nth-child(1):hover{z-index: 21;}
+.training__cards-img:nth-child(1):hover span{
+    display: block;
+    color: var(--color-secundarylight);
+    text-align: center;
+    background-image: linear-gradient(var(--color-secundarylight), var(--color-primary));
+    opacity: .8;
+    position: absolute;
+    border-radius: 6px; 
+    height: 100%;
+    margin: 0;   
+    padding-top: 40%;
+    text-shadow: 0 0 3px #F9EA9A, 0 0 7px #E0FBFC;
+    font-size:var( --smaller-font-size) ;
+}
+.training__cards-description{
+    grid-area: description;
+    color: black;
+    text-align: center;
+    font-size: .8rem;
+    background-color: var(  --background-grey);
+    opacity: .3;
+    padding-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.sena__img{
+    background:url('../img/sena1.png')center/cover no-repeat;
+    background-size: contain;
+}
+.senavirtual__img{
+    background: url('../img/senavirtual1.png')center/cover no-repeat;
+    background-size: contain;
+}
+.techacademy__img{
+    background: url('../img/techacademy1.png')center/cover no-repeat;
+    background-size: contain;
+}
+.misiontic__img{
+    background: url('../img/misiontic2022.png')center/cover no-repeat;
+    background-size: contain;
+}
+.oracleone__img{
+    background-size: contain;
+    background: url('../img/oracleone.png')center/cover no-repeat;
+    background-size: contain;
+}
