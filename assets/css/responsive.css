@@ -127,6 +127,7 @@
     .home__container{margin :0;}
     .home__social{  margin-top: 20%;} 
     .home__social > a{padding: 0 20px 0 20px;}
+    .home_contact{margin-left: 38%}
     .about__container{width: 80%; margin-left:1rem;}
     .about__text{font-size: .8em;}
     .training__cards-img:nth-child(1):hover span{font-size: .6em;}
