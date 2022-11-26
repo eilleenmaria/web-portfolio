@@ -4,9 +4,12 @@
 @import url(normalize.css);
 @import url(menu.css);
 @import url(home.css);
+@import url(about.css);
 @import url(skills.css);
 @import url(training.css);
 @import url(project.css);
+@import url(contact.css);
+@import url(responsive.css);
 /* css variables */
 :root{
     --header-height: 3rem;
@@ -19,9 +22,9 @@
     --smaller-font-size: .75rem;
 /* colors */
     --color-primary:#124E78;
-    --background-primary:#F4E8C1;
-    --background-secundary:#FFBF69;
-    --color-secundary:#EC9A29;
+    --background-primary:#F4E8C1;  
+    --background-secundary:#D9CAB3;
+    --color-secundary:#FF8552;
     --color-secundarylight:#F1FEC6;
     --background-grey:#9AA0A8;
 /* margins */
@@ -33,20 +36,9 @@
 /* Z-index */
     --z-back: -10;
     --z-fixed: 100;
-
     --z-normal:1;
     --ztooltip:10;
 }
-
-@media screen and (min-width: 990px) {
-    :root {
-        --big-font-size: 3.5rem;
-        --h2-font-size: 2.5rem;
-        --normal-font-size: 1.5rem;
-        --smaller-font-size: .95rem;
-    }
-    
-  }
   *{
     box-sizing: border-box;
   }
@@ -54,7 +46,7 @@
     scroll-behavior: smooth;
   }
   .app{
-    background:var(--background-primary);
+    background:url('../img/abstract-gdecdb2db1_1920.jpg')center / cover no-repeat;
     display: grid;  
     font-family: var(--body-font);
     grid-template-areas: 
@@ -64,69 +56,23 @@
     grid-template-columns: auto;
     grid-template-rows: var(--header-height) auto auto;
     color: var(--color-primary);
-  }
-
- 
-   a {
-    text-decoration: none;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
+  } 
+   a {text-decoration: none;}
+  ul {margin: 0; padding: 0; list-style: none;}
   .l-header {
     padding: 0 2rem;
     align-items: center;
     display:flex;
-    grid-area: header;
-    /* padding: 0 2rem; */
-    background: var(--background-secundary);
+    grid-area: header;   
     z-index: var(--z-fixed);
     position: fixed; 
-    width: 100%; 
-    /* width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  
-    background-color: var(--background-secundary); */
-    /* box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15); */
+    width: 100%;    
   }
   .contenido {   
-    grid-area: contenido;
-    padding: 0 2rem;
-}
-.l-footer { 
-  background:var(--background-secundary);
+    grid-area: contenido; padding: 0 2rem;}
+.l-footer {   
   color:var(--color-primary);
   grid-area: footer;
   padding: 1rem;
-  text-align: center;
-  
+  text-align: center;  
 }
-.about{
-  background-color:var(--background-primary); 
-  height: calc(100vh - var( --header-height
-  ));
-}
-.section-title{
-  text-align: center;
-  text-shadow: 0 0 3px #1D2F6F, 0 0 7px #62929E;
-  color: var(--color-secundary);   
-  font-size: var(--h2-font-size);
-  margin:2rem;
-  padding-top: 3rem;
-}
-.about__container {
-  margin-left: 40px;
-  margin-top: 30px; 
-  width: 70%;
-}
-.about__text{
-  text-align: justify;
-  text-shadow: 0 0 4px var(--color-secundarylight);
-}
-
- 

@@ -1,0 +1,30 @@
+.about{
+  height: calc(100vh - var( --header-height
+    )); 
+
+  }
+  .section-title{
+    text-align: center;
+    text-shadow: 0 0 3px #1D2F6F, 0 0 7px #62929E;
+    color: var(--color-secundary);   
+    font-size: var(--h2-font-size);
+    margin:var(--mb-4);
+    padding-top: 3rem;
+  }
+  .about__container {
+    margin-left: 40px;
+    margin-right: var(--mb-2);
+    margin-top: var(--mb-4); 
+    width: 68%;
+  }
+  .about__text{
+    line-height: 2;
+    text-align: justify;
+    text-shadow: 0 0 4px var(--color-secundarylight);
+  }
+  .about strong{
+    color: var(--color-secundary);
+    text-shadow: 0 0 3px #1D2F6F, 0 0 7px #62929E; 
+    font-size: var(--normal-font-size);
+  }
+  

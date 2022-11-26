@@ -5,41 +5,28 @@
     align-items: center;
     font-weight: var(--font-semi);
     color: var(--color-primary);
-    width: 100%;
-    
-  }
-  
-  .nav__icon{
-    color: var(--color-primary);    
-}
+    width: 100%;    
+  }  
+  .nav__icon{color: var(--color-secundarylight); }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 769px) {
     .nav__menu {
       position: fixed;
       top: var(--header-height);
       right: -100%;
-      width: 80%;
+      width: 50%;
       height: 100%;
       padding: 2rem;
-      background-color: var(--color-secundarylight);
-      transition: .5s;
-      
+      background-color: var(--color-primary);
+      transition: .5s;      
     }
-  }
+  }  
+  .nav__item {margin-bottom: var(--mb-4); }
   
-  .nav__item {
-    margin-bottom: var(--mb-4);
-  }
-  
-  .nav__link {
-    position: relative;
-    color: #fff;  
-  }
-  
-  .nav__link:hover {
-    position: relative;  
-  }
-  
+  .nav__link {position: relative;
+    color: var(--color-secundarylight);  
+  }  
+  .nav__link:hover {position: relative;}  
   .nav__link:hover::after {
     position: absolute;
     content: '';
@@ -47,21 +34,17 @@
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: var(--color-secundary);
-    
-  }
-  
+    background-color: var(--color-secundary);    
+  }  
   .nav__logo {
     color:var(--color-primary);
     padding-left: 10px;
-  }
-  
+  }  
   .nav__toggle {
     color: var(--color-primary);
     font-size: 1.5rem;
     cursor: pointer;
     padding-right: 10px;
-
   }
   
   /*Active menu*/
@@ -72,16 +55,13 @@
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: var(--color-primary);
-  }
-  
+    background-color: var(--color-secundarylight);
+  }  
   /* Show menu */
   .show {
     right: 0;
   } 
-  @media screen and (min-width: 768px) {
-   
-    
+  @media screen and (min-width: 770px) {   
       .nav__list {
         display: flex;
         padding-top: 0;   
@@ -98,4 +78,5 @@
         color: var(--color-primary);
       }   
     }
+   
   

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eilleenmaria portfolio</title>    
+    <title>eilleenmaria portfolio</title>
+        
     <link rel="stylesheet" href="./assets/css/main.css">    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script  type="text/javascript" src="/jquery-3.6.1.min.js"></script> 
@@ -32,37 +33,41 @@
         </nav>
     </header>
     <main class="contenido">
-        <section class="home" id="home">            
-            <div class="home__data">
-                <h1 class="home__title">
-                    Hello,<br>I'm <span >eilleenmaria</span><br>Web Developer
-                </h1>              
-                <div class="home__title-p">
-                    <P class="">I study Tecnology software analisys and developer also, I am participating in the Oracle One project at Alura Latam. </P>                    
-                </div>
-            </div > 
-            <div class="home_contact"> <a href="#" class="button">Contact</a>  </div>       
-            <div class="home__social">               
-                <a href="" class="tooltip"><i class="fa-brands fa-square-github fa-xl"></i><span >Github</span></a>                   
-                <a href="" class="tooltip"><i class="fa-brands fa-linkedin fa-xl"></i><span>Linkedin</span></a> 
-                <a href="" class="tooltip"><i class="fa-brands fa-wpforms fa-xl"></i><span>CV</span></a>
-            </div>            
-            <div class="home__img" ></div>         
+        <section class="home" id="home"> 
+            
+            <div class="home__container">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hello,<br>I'm <span >eilleenmaria</span><br>Web Developer
+                    </h1>              
+                    <div class="">
+                        <P class="home__title-p">I study Tecnology software analisys and developer also, I am participating in the Oracle One project at Alura Latam. </P>                    
+                    </div>
+                </div > 
+                <div class="home_contact"> <a href="#contact" class="button">Contact</a>  </div>
+                <div class="home__social">               
+                    <a href="https://github.com/eilleenmaria" target="_blank" rel="noopener noreferrer" class="tooltip"><i class="fa-brands fa-square-github fa-xl"></i><span >Github</span></a>                   
+                    <a href="https://www.linkedin.com/in/eilleen-maria-gutierrez-acosta-181b99246/" target="_blank" rel="noopener noreferrer" class="tooltip"><i class="fa-brands fa-linkedin fa-xl"></i><span>Linkedin</span></a> 
+                    <a href="http://127.0.0.1:5501/assets/docs/cveilleengutierrez.pdf" target="_blank" rel="noopener noreferrer" class="tooltip"><i class="fa-brands fa-wpforms fa-xl"></i><span>CV</span></a>
+                </div>              
+            </div>           
+            <div class="home__img" ><img src="./assets/img/perfil1.png" alt="foto perfil"></div>        
+            
+                  
         </section>
         <!-- ABOUT -->
         <section class="about  " id="about">
             <h2 class="section-title">About me</h2>
             
             <div class="about__container ">
-                <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.<br>
-                    Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.<br>Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                </p>                                          
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 1280 320"><path fill="#124E78" fill-opacity="0.6" d="M0,160L60,138.7C120,117,240,75,360,101.3C480,128,600,224,720,234.7C840,245,960,171,1080,165.3C1200,160,1320,224,1380,256L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+                <p class="about__text">
+                    <strong>Hi guys...</strong> <br><br>
+                    I am Eilleen Gutierrez, I'm from Colombian  and I live in the municipalyty of Malambo - Atlantico. I like challenges and overcoming obstacles .<br><br> I consider myself a person who is passionate about programming.My beginnings go back to the beginning of the covid 19 pandemic where as a strategy of the Colombian government I had access to the opportunity to study programming in the <strong>MisionTic</strong> program in agreement with the <strong>University of Antioquia </strong>, it was a wonderful experience that allowed me to identify my interest in programming .<br><br>Since then I have not stopped acquiring knowledge and skills in different programming languages, in addition to studying Technology in software analysis and development and I have carried out personal and academic web projects .                </p>                                          
+            </div>          
         </section>
         <section class="skills" id="skills">
-           <h2 class="section-title skills__title">Skills</h2>
-           <div class="skills__container">
+            <h2 class="section-title skills__title">Skills</h2>
+            <div class="skills__container">
                 <div class="skill__cards">
                     <div class="skill__cards-title">
                         <h3>HTML</h3>
@@ -194,16 +199,15 @@
                         </div>
                     </div>
                 </div>
-           </div>
+            </div>
         </section>        
-       <section class="training" id="training">
+        <section class="training" id="training">
         <h2 class="section-title">Training</h2>
             <div class="training__container">
                 <div class="training__cards">
                         <div class="training__cards-img sena__img"><span>TECNOLOGIA EN ANALISIS Y DESARROLLO DE SOFTWARE</span>
                     </div>
-                    <div class="training__cards-description">
-                       
+                    <div class="training__cards-description">                       
                         <span>15/agosto/2024</span>
                     </div>                    
                 </div>
@@ -247,250 +251,146 @@
                 </div> 
                 
             </div>
-       </section>
-       <section class="projects" id="projects">
-        <div class="cards">
-
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?wave" alt="wave" />
-              </div>
-              <div class="card-title">
-                <a class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-                </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="section-title ">Projects</h2>   
+            <div id="card__projects">           
+                <div class="card__projects-details">       
+                    <h2>LandingPage</h2> 
+                    <p >"  This is an html and css mockup replica of a responsive landing page. "</p>        
+                    <div class="card__projects-control">
+                        <a href="https://github.com/eilleenmaria/landingPage.git" target="_blank" rel="noopener noreferrer">       
+                        <div class="card__projects-btn">            
+                        <span class="card__projects-icon"></span>           
+                        <span class="card__projects-icontrue"><i class="fa-brands fa-square-github " aria-hidden="true"></i></span>           
+                        <span class="card__projects-repository">Repository</span>
+                    </a>  
+                        </div>        
+                    </div>                        
+                </div>      
+                <div class="card__projects-image">                
+                    <img src="./assets/img/landingpage.png" alt="landing page replica">        
+                    <div class="card__projects-image_info  ">
+                        <h3>Replica landing page</h3>
+                        <ul>
+                            <li><strong>Mockoup: </strong>Responsive</li>
+                            <li><strong>Replica online </strong>course platform</li>
+                            <li><strong>Html and Css </strong>..</li>                   
+                        </ul>
+                    </div>
+                </div>             
             </div>
-          
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?beach" alt="beach" />
-              </div>
-              <div class="card-title">
-                <a href="#" class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-                </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
+            <div id="card__projects">           
+                <div class="card__projects-details">       
+                    <h2>Encrypter</h2> 
+                    <p >"  Program to encrypt and decrypt text.<br> Made in html css and javascript. "</p>        
+                    <div class="card__projects-control">
+                        <a href="https://github.com/eilleenmaria/challenge-One-Encriptador.git" target="_blank" rel="noopener noreferrer">       
+                        <div class="card__projects-btn">            
+                        <span class="card__projects-icon"></span>           
+                        <span class="card__projects-icontrue"><i class="fa-brands fa-square-github " aria-hidden="true"></i></span>           
+                        <span class="card__projects-repository">Repository</span>               
+                        </div>
+                    </a>         
+                    </div>                        
+                </div>      
+                <div class="card__projects-image">                
+                    <img src="./assets/img/encriptador.png" alt="encrypter">        
+                    <div class="card__projects-image_info ">
+                        <h3>Software for encrypt and decrypt text</h3>
+                        <ul>
+                            <li><strong> </strong>Responsive</li>
+                            <li><strong>Functionality </strong>whit javascript</li>
+                            <li><strong>Html and Css </strong>..</li>                   
+                        </ul>
+                    </div>
+                </div>             
             </div>
-          
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?mountain" alt="mountain" />
-              </div>
-              <div class="card-title">
-                <a href="#" class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-                </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
+            <div id="card__projects">           
+                <div class="card__projects-details">       
+                    <h2>Hangman</h2> 
+                    <p >" Game that allow you to discover a secret word and add new words to the library.<br> Made in html, css and javascript."</p>        
+                    <div class="card__projects-control">
+                        <a href="https://github.com/eilleenmaria/hangman.git" target="_blank" rel="noopener noreferrer">       
+                        <div class="card__projects-btn">            
+                        <span class="card__projects-icon"></span>           
+                        <span class="card__projects-icontrue"><i class="fa-brands fa-square-github " aria-hidden="true"></i></span>           
+                        <span class="card__projects-repository">Repository</span>               
+                        </div>
+                    </a>         
+                    </div>                        
+                </div>      
+                <div class="card__projects-image">                
+                    <img src="./assets/img/hangman.png" alt="game hangman">        
+                    <div class="card__projects-image_info">
+                        <h3>Game hangman</h3>
+                        <ul>
+                            <li><strong> </strong>Html, Canvas and Css</li>
+                            <li><strong>Functionality </strong>whit javascript</li>
+                                        
+                        </ul>
+                    </div>
+                </div>             
             </div>
-          
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?field" alt="field" />
-              </div>
-              <div class="card-title">
-                <a href="#" class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+            <div id="card__projects">           
+                <div class="card__projects-details">       
+                    <h2>AutShopping</h2> 
+                    <p >"   Fronted prototype of a car registration website.Built with the framework Angular, the express infrastructure and mongoDb server. "</p>        
+                    <div class="card__projects-control">
+                        <a href="https://github.com/eilleenmaria/AutShoppingApplicationAngular.git" target="_blank" rel="noopener noreferrer">       
+                        <div class="card__projects-btn">            
+                        <span class="card__projects-icon"></span>           
+                        <span class="card__projects-icontrue"><i class="fa-brands fa-square-github " aria-hidden="true"></i></span>           
+                        <span class="card__projects-repository">Repository</span>               
+                        </div>
+                    </a>         
+                    </div>                        
+                </div>      
+                <div class="card__projects-image">                
+                    <img src="./assets/img/autshopping.png" alt="autshopping">        
+                    <div class="card__projects-image_info ">
+                        <h3>Angular car registration prototype</h3>
+                        <ul>
+                            <li><strong> </strong>Responsive</li>
+                            <li><strong>Functionality </strong>whit javascript</li>
+                            <li><strong>Html and Css </strong>..</li>                   
+                        </ul>
+                    </div>
+                </div>             
+            </div>        
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__container">
+                <div class="contact__front side">
+                    <div class="contact__front-content">
+                        <h2>Eilleen Gutierrez</h2>
+                        <p>I am a self-taught web developer interested in participating in new projects. If you need collaboration in a development project, do not hesitate to contact me, I am always willing to offer my skills...
+                        </p>
+                    </div>
                 </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?water" alt="water" />
-              </div>
-              <div class="card-title">
-                <a href="#" class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-                </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?river" alt="river" />
-              </div>
-              <div class="card-title">
-                <a href="#" class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-                </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?kite" alt="kite" />
-              </div>
-              <div class="card-title">
-                <a href="#" class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-                </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?underwater" alt="underwater" />
-              </div>
-              <div class="card-title">
-                <a href="#" class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-                </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="card">
-              <div class="card__image-holder">
-                <img class="card__image" src="https://source.unsplash.com/300x225/?desert" alt="desert" />
-              </div>
-              <div class="card-title">
-                <a href="#" class="toggle-info btn">
-                  <span class="left"></span>
-                  <span class="right"></span>
-                </a>
-                <h2>
-                    Card title
-                    <small>Image from unsplash.com</small>
-                </h2>
-              </div>
-              <div class="card-flap flap1">
-                <div class="card-description">
-                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-                </div>
-                <div class="card-flap flap2">
-                  <div class="card-actions">
-                    <a href="#" class="btn">Read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-          </div>
-          
-       </section>     
+                <div class="contact__back side">
+                    <div class="contact__front-content">
+                        <h1>Contact Me</h1>
+                        <form action="https://formsubmit.co/0ad5a68fd03e92bc316de884033d1419" method="POST">
+                            <label>Your Name :</label>
+                            <input type="text" name="name" placeholder="Pedro Perez" required>                            
+                            <label>Your E-mail :</label>
+                            <input type="text" name="email" placeholder="Example@mail.com" required>
+                            <label>Subject :</label>
+                            <input type="text" name="subject" placeholder="name the subject" >
+                            <label>Your message :</label>
+                            <textarea name="message" placeholder="The Subject" required></textarea>
+                            <input type="submit" value="Done">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5501">
+                            <input type="hidden" name="_captcha" value="false">
+                        </form>
+                    </div>
+                </div>            
+            </div>            
+        </section>     
     </main>
     <footer class="l-footer">
-
+      
     </footer>
     <!-- icons -->
     <script src="https://kit.fontawesome.com/4ed2c48e83.js" crossorigin="anonymous"></script>
