@@ -1,2 +1,4 @@
 # web-portfolio
-personal web portfolio with html css and javascript.
+### Personal web portfolio with html css and javascript.
+
+<img src="assets/img/portfolio.png" width="800" >
